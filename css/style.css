@@ -1,14 +1,29 @@
 body{
+  background-image: linear-gradient(#AF67E9, #6565E7);
   font-family: 'Kumbh Sans', sans-serif;
+  height: 680px;
 }
 h1{
   margin: 40px auto;
 }
+
+.global-container{
+  background-color: white;
+  border-radius: 25px;
+  display: block;
+  height: 550px;
+  margin: 100px auto;
+  position: relative;
+  width: 1000px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
 .FAQ{
   color: #4A4B5E;
+  margin: 60px auto ;
   position: absolute;
   right: 10%;
-  width: 24%;
+  width: 35%;
 }
 .question-container{
   margin: 18px auto;
@@ -36,6 +51,10 @@ hr{
   outline: none;
   font-size: 15px;
 }
+.question:hover{
+  color: #f47c57;
+  cursor: pointer;
+}
 .response {
   color: #787887;
   display: none;
@@ -44,4 +63,26 @@ hr{
   padding: 0;
   overflow: hidden;
 
+}
+.images-container{
+  position: absolute;
+  width: 50%;
+  left: -110px;
+  top: -80px
+}
+.pattern{
+  position: absolute;
+  height:700px;
+  right: 0;
+}
+.box{
+  position: absolute;
+  right: 18.2rem;
+  top:19.3rem;
+}
+
+.woman{
+  position: absolute;
+  right: 0;
+  bottom: -33.25rem;
 }
